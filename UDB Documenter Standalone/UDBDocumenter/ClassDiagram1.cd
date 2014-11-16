@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UDBDocumenter.Comment">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAIAAEAAAAgQAAAAAgA=</HashCode>
+      <FileName>Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.Database">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAAECAAEABEDgAIAAAAAAAEAAAgAAAAASAAAAA=</HashCode>
+      <FileName>Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.Field">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAQAEAAAAAQECiAAAgIAQAAFAAABQAgACAAIEgA=</HashCode>
+      <FileName>Field.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.FieldDoc" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAwAACAAYBAEAACAAACCAAAcAAAAAEgIAAABBQA=</HashCode>
+      <FileName>FieldDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.ChangeLanguagesForm" Collapsed="true">
+    <Position X="13.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAQAgCAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ChangeLanguagesForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.AddServerForm" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAABAACiiABAACAAIYAAAAAHABAQQAAQA=</HashCode>
+      <FileName>AddServerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.FieldDocView" Collapsed="true">
+    <Position X="13.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAwAACAAYBAEAACAAACCAAAEAAAAAAAIAAABBQA=</HashCode>
+      <FileName>FieldDocView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.Form1" Collapsed="true">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwCASAAAACABAAkECoSEACAKIoAAgCAAAHAoFABBBAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.MSServerEngine" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARBQAAAAAAAgAAgAAAAhAEAAAMAAAAAAAAAAAAAAAMA=</HashCode>
+      <FileName>MSServerEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UDBDocumenter.MySQLServerEngine" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARBQAAAABAAgAAgAAAAhAEAAAMAAAAAAAAAAAAAAAMA=</HashCode>
+      <FileName>MySQLServerEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UDBDocumenter.ReportGenForm" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQACAAABAAAACAEAACQAAYAAAAEGAAAAEAgCI=</HashCode>
+      <FileName>ReportGenForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.Server">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gVhwAAAAEIAAEABAABAhAEAABIhCAEgggAAgAwUAAMA=</HashCode>
+      <FileName>Server.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.Table">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAIAQAkAAAIAAEDiAAAgIAQAAEAAAAAAgAACAAAgA=</HashCode>
+      <FileName>Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.TableDoc" Collapsed="true">
+    <Position X="13.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAwAICAgQBAUAACAAAACAAAMgAAQAEgAAAABBQA=</HashCode>
+      <FileName>TableDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UDBDocumenter.TableDocView" Collapsed="true">
+    <Position X="13.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAwAACAAQBAEAQCAAAACAAAEgAAQAAAAAAABBAA=</HashCode>
+      <FileName>TableDocView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="UDBDocumenter.IServerEngine">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARBQAAAAAAAAAAAAAAAhAEAAAIAAAAAAAAAAAAAAAMA=</HashCode>
+      <FileName>IServerEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

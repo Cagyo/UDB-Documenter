@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="D:\ЗАЭС\DATABASE\HIDROHIMSQL.MDF" Class="HidroHimDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ALEXEY_NOTEBOOK\;Initial Catalog=D:\ЗАЭС\DATABASE\HIDROHIMSQL.MDF;Integrated Security=True" SettingsObjectName="UDBDocumenter.Properties.Settings" SettingsPropertyName="D__ЗАЭС_DATABASE_HIDROHIMSQL_MDFConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.addavg" Member="addavgs">
+    <Type Name="addavg">
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrObjekt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="dtmDataZ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="[УПВ-превышение]" Member="УПВ_превышение" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sngAOI" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAOU" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Превышение" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="АОУПВ" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sngTemperatur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="intGod" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="bytGorizont" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Ошибки вставки]" Member="Ошибки_вставкиs">
+    <Type Name="Ошибки_вставки">
+      <Column Name="[Номер записи]" Member="Номер_записи" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Тип з,с,к]" Member="Тип_з_с_к" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Наименование здания]" Member="Наименование_здания" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Принадлежность блоку]" Member="Принадлежность_блоку" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Глубина заложения фундамента здания]" Member="Глубина_заложения_фундамента_здания" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="[АО фундамента]" Member="АО_фундамента" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.blocks" Member="blocks">
+    <Type Name="block">
+      <Column Name="Id" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="blocksName" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="pathToblocksFile" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="blocksId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="connectingTable" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="parentTable" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cabinates" Member="cabinates">
+    <Type Name="cabinate">
+      <Column Name="Id" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="cabinatesName" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="pathTocabinatesFile" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="cabinatesId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="connectingTable" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="parentTable" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.floors" Member="floors">
+    <Type Name="floor">
+      <Column Name="Id" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="floorsName" Type="System.String" DbType="Char(30)" CanBeNull="true" />
+      <Column Name="pathTofloorsFile" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="floorsId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="connectingTable" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="parentTable" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.forvibor" Member="forvibors">
+    <Type Name="forvibor">
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrObjekt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="dtmDataZ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="[УПВ-превышение]" Member="УПВ_превышение" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sngAOI" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAOU" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Превышение" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="АОУПВ" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="sngTemperatur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="bytGorizont" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Год" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="blnVibor" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SoorugeniaFDI" Member="SoorugeniaFDIs">
+    <Type Name="SoorugeniaFDI">
+      <Column Name="FDI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SoorugeniaId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Switchboard Items]" Member="Switchboard_Items">
+    <Type Name="Switchboard_Item">
+      <Column Name="SwitchboardID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ItemNumber" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ItemText" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Command" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Argument" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAddShifrSkvVar" Member="tblAddShifrSkvVars">
+    <Type Name="tblAddShifrSkvVar">
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="intPovtNumSkv" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="intSkvaginTemp" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="intShifrOb" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="chrObjekt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ShifrSkv" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAddYhastki" Member="tblAddYhastkis">
+    <Type Name="tblAddYhastki">
+      <Column Name="intShifrOb" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="chrObjekt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrMacros" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAddYpvPrompl" Member="tblAddYpvPrompls">
+    <Type Name="tblAddYpvPrompl">
+      <Column Name="idnNom" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="dtmDataZ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngTemperatur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="intDecad" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="intManth" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="intGod" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="chrIspolnit" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataIzm" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAddYpvPromplZ" Member="tblAddYpvPromplZs">
+    <Type Name="tblAddYpvPromplZ">
+      <Column Name="idnNom" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="dtmDataZ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngTemperatur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="intDecad" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="intManth" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="intGod" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="chrIspolnit" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataIzm" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAllSkvag" Member="tblAllSkvags">
+    <Type Name="tblAllSkvag">
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrObjekt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="blnVibor" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblAllVyrPrint" Member="tblAllVyrPrints">
+    <Type Name="tblAllVyrPrint">
+      <Column Name="intShifrVyrabotki" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrNvyrabotki" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrTipVyrabotki" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngKoordinA" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngKoordinB" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAOY" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngDepth" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrNaimenovSroiSoorug" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngDepthZalogZ" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrNaimenovComunic" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngDepthZalogС" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrDraft" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrNaimenovOtchet" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="chrArhivNomerPole" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrGeoAge" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="chrNomerSloya" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="chrDescriptionSoil" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="dtmData" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblComunic" Member="tblComunics">
+    <Type Name="tblComunic">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrMarcComunic" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrNameComunic" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrMarkKold" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="intBlock" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngDepthZalog" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblComunicMain" Member="tblComunicMains">
+    <Type Name="tblComunicMain">
+      <Column Name="chrMarcComunic" Type="System.String" DbType="NVarChar(16) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="chrNameComunic" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrObPodachi" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrdiametr" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="chrIstchnikZapitki" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrIstochPodpOsn" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrIstochnikPodpit" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="chrMarcZadvig" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrMarcNasos" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="chrMarcKolod" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrCompensator" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="chrsreda" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="sngdavlenie" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngrashod" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngtemperatyra" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrHimSostav" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="chrKlasBezopasn" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="sngDlina" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrMaterial" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="intKolichestvTrub" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="sngGlubinaZalog" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrStykShvi" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="chrNomeProekta" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="chrMestoProekta" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="chrIspolnitelShema" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="chrMestoShema" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblDataOtbGidroHim" Member="tblDataOtbGidroHims">
+    <Type Name="tblDataOtbGidroHim">
+      <Column Name="dtmDataOtb" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="god" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mgod" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblDepthZSK" Member="tblDepthZSKs">
+    <Type Name="tblDepthZSK">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrNaimenovStrojSoorug" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngDepthZalog" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Association Name="tblSoorugeniaMain_tblDepthZSK" Member="tblSoorugeniaMain" ThisKey="chrNaimenovStrojSoorug" OtherKey="chrNaimenovSroiSoorug" Type="tblSoorugeniaMain" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblDraft" Member="tblDrafts">
+    <Type Name="tblDraft">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrArhivNomerPole" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrDraft" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblDynamicResistance" Member="tblDynamicResistances">
+    <Type Name="tblDynamicResistance">
+      <Column Name="number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="intShifrVyrabotki" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrNvyrabotki" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrTipVyrabotki" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngAOY" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngDepth" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrNomerSloya" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="NumberOfStrokes" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblElement" Member="tblElements">
+    <Type Name="tblElement">
+      <Column Name="idnNom" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrYslObozn" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrPokazat" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrPokazat1" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrNorma" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrUnit" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrNameColl" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblElementNorma" Member="tblElementNormas">
+    <Type Name="tblElementNorma">
+      <Column Name="NORMATIV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HYDROGEN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HARDNESS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ALKALINITI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="СО3" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="H2CO3" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SO4" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NO2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NO3" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SUM_A" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MG" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NAK" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NH4" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SUM_K" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HIDROSULPHURIC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EL_CONDUCTIVITY" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MINIRAL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CD" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CO" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CR" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PB" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ZN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="APAV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OIL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YPV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblFactor" Member="tblFactors">
+    <Type Name="tblFactor">
+      <Column Name="id_factor" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="min_depth" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="max_depth" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="value_factor_k" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="value_factor_f" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblGidroHim" Member="tblGidroHims">
+    <Type Name="tblGidroHim">
+      <Column Name="idnNom" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataOtb" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sngHydrogem" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngHardness" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAlkaliniti" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngСО3" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngH2CO3" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngSO4" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCl" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNO2" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNO3" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngSumA" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCa" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngMg" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNAK" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNH4" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngFE" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngSumK" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngHidroSulphuric" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngElConduct" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngMiniral" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAl" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sngBeE" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCd" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCo" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCr" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCu" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngMn" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNi" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngPb" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngZn" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAPAV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngOil" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngTemperatur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="dtmDataIzm" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="chrIspolnit" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblGidroHim1" Member="tblGidroHim1s">
+    <Type Name="tblGidroHim1">
+      <Column Name="idnNom" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataOtb" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sngHydrogem" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngHardness" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAlkaliniti" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngСО3" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngH2CO3" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngSO4" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCl" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNO2" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNO3" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngSumA" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCa" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngMg" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNAK" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNH4" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngFE" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngSumK" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngHidroSulphuric" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngElConduct" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngMiniral" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAl" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sngBeE" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCd" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCo" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCr" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCu" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngMn" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNi" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngPb" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngZn" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAPAV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngOil" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngTemperatur" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="dtmDataIzm" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="chrIspolnit" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblGidroHimforData" Member="tblGidroHimforDatas">
+    <Type Name="tblGidroHimforData">
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[dtmDataOtb по месяцам]" Member="dtmDataOtb_по_месяцам" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngH2CO3" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngSO4" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCl" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNO2" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNO3" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngCa" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngMg" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNAK" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngNH4" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngFE" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngElConduct" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngMiniral" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblIspolnitel" Member="tblIspolnitels">
+    <Type Name="tblIspolnitel">
+      <Column Name="chrFamaly" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="chrName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrFather" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrPost" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblNewShifr" Member="tblNewShifrs">
+    <Type Name="tblNewShifr">
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="intSkvaginTemp" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="intPovtNumSkv" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="intShifrOb" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblNewSkvagPl" Member="tblNewSkvagPls">
+    <Type Name="tblNewSkvagPl">
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblNewSkvOb" Member="tblNewSkvObs">
+    <Type Name="tblNewSkvOb">
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrObjekt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrTehSost" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblNewSkvPrompl" Member="tblNewSkvPrompls">
+    <Type Name="tblNewSkvPrompl">
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Скважина" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Участок" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblObjektZamerov" Member="tblObjektZamerovs">
+    <Type Name="tblObjektZamerov">
+      <Column Name="chrNomZ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intShifr" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="chrObjekt" Type="System.String" DbType="NVarChar(127) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblObjYchast1" Member="tblObjYchast1s">
+    <Type Name="tblObjYchast1">
+      <Column Name="intShifrOb" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="chrObjekt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrMacros" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblOtchet" Member="tblOtchets">
+    <Type Name="tblOtchet">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrNaimenovOtchet" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="chrArhivNomerPole" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="chrArhivNomer" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="intGod" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="dtmDataZapolnenia" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPerevod" Member="tblPerevods">
+    <Type Name="tblPerevod">
+      <Column Name="idnNZap" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sngКoordX" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngKoordY" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblSoil" Member="tblSoils">
+    <Type Name="tblSoil">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrShifrSoil" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="chrGeoAge" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="chrNomerSloya" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="chrDescriptionSoil" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="intPrioritySoil" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="realKoeficientFiltracii" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="realPlotnostChasticGrunta" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="realModulDeform" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="ObrazecShtrihovki" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="[Color(RGB)]" Member="Color_RGB_" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="Yhol" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Maschtab" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="[Tolshina linii]" Member="Tolshina_linii" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="[Opredуlenia hran.sostav]" Member="Opredуlenia_hran_sostav" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="StandartnostShtrihovki" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblSoorugeniaMain" Member="tblSoorugeniaMains">
+    <Type Name="tblSoorugeniaMain">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrTipZsk" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrNaimenovSroiSoorug" Type="System.String" DbType="NVarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="intBlock" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngDepthZalog" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngAOZalog" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pathTotblSoorugeniaMainFile" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="connectingTable" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="tblSoorugeniaMain_tblDepthZSK" Member="tblDepthZSKs" ThisKey="chrNaimenovSroiSoorug" OtherKey="chrNaimenovStrojSoorug" Type="tblDepthZSK" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblSoorugeniaMain1" Member="tblSoorugeniaMain1s">
+    <Type Name="tblSoorugeniaMain1">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrTipZsk" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrNaimenovSroiSoorug" Type="System.String" DbType="NVarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="intBlock" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngDepthZalog" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblTipVyrabotki" Member="tblTipVyrabotkis">
+    <Type Name="tblTipVyrabotki">
+      <Column Name="nZ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrTipVyrabotki" Type="System.String" DbType="NVarChar(128) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblVibor" Member="tblVibors">
+    <Type Name="tblVibor">
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrObjekt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chrYchastok" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="blnVibor" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="chrTehSost" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblViborForPasp" Member="tblViborForPasps">
+    <Type Name="tblViborForPasp">
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="intIspolzyet" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="vibor" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblVyrabotka" Member="tblVyrabotkas">
+    <Type Name="tblVyrabotka">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intShifrVyrabotki" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrNvyrabotki" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sngDepthZalogС" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sngDepthZalogZ" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngDepth" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrNaimenovComunic" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrShifrSoil" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="intNumberOfStrokes" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dtmIzm" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblVyrabotka_old" Member="tblVyrabotka_olds">
+    <Type Name="tblVyrabotka_old">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intNvyrabotki" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="sngDepthZalogС" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sngDepthZalogZ" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngDepth" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrNaimenovComunic" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrShifrSoil" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblVyrabotkaGeneral" Member="tblVyrabotkaGenerals">
+    <Type Name="tblVyrabotkaGeneral">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="chrNvyrabotki" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="intShifrVyrabotki" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrTipVyrabotki" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngKoordinA" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngKoordinB" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrNaimenovSroiSoorug" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngAOY" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrDraft" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="dtmDataIzm" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblVyrabotkaGranul" Member="tblVyrabotkaGranuls">
+    <Type Name="tblVyrabotkaGranul">
+      <Column Name="idnNz" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="intShifrVyrabotki" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="procGranulOt1Do05" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="procGranulOt05Do025" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="procGranulOt025Do01" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="procGranulOt01Do005" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="procGranulOt005Do0" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblVyrabotkaSloy" Member="tblVyrabotkaSloys">
+    <Type Name="tblVyrabotkaSloy">
+      <Column Name="tblVyrabotkaGeneral_intNvyrabotki" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="intShifrVyrabotki" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tblVyrabotka_intNvyrabotki" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sngDepthZalogС" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sngDepthZalogZ" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngDepth" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="chrNaimenovComunic" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="chrShifrSoil" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblYpvVnechOb" Member="tblYpvVnechObs">
+    <Type Name="tblYpvVnechOb">
+      <Column Name="idnNom" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataZ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="chrIspolnit" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblYpvVnechOb1" Member="tblYpvVnechOb1s">
+    <Type Name="tblYpvVnechOb1">
+      <Column Name="idnNom" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataZ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="chrIspolnit" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblYpvVnechOb2009" Member="tblYpvVnechOb2009s">
+    <Type Name="tblYpvVnechOb2009">
+      <Column Name="idnNom" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="intShifr" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chrSkvagina" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sngYPV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataZ" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="chrIspolnit" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dtmDataI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblYpvVodnObj" Member="tblYpvVodnObjs">
+    <Type Name="tblYpvVodnObj">
+      <Column Name="dtmData" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="sngKahovsk" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngPrudOhl" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngSbrosKanal" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngPodvodKanal" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="sngOtvodKanal" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UDBComments" Member="UDBComments">
+    <Type Name="UDBComment">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="commentEng" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="commentUkr" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="commentRus" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="UDBComment_UDBField" Member="UDBFields" ThisKey="id" OtherKey="commentId" Type="UDBField" />
+      <Association Name="UDBComment_UDBTable" Member="UDBTables" ThisKey="id" OtherKey="commentId" Type="UDBTable" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UDBFields" Member="UDBFields">
+    <Type Name="UDBField">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="isnull" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="defaultvalue" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tableId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="commentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="UDBComment_UDBField" Member="UDBComment" ThisKey="commentId" OtherKey="id" Type="UDBComment" IsForeignKey="true" />
+      <Association Name="UDBTable_UDBField" Member="UDBTable" ThisKey="tableId" OtherKey="id" Type="UDBTable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UDBTables" Member="UDBTables">
+    <Type Name="UDBTable">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="commentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="UDBTable_UDBField" Member="UDBFields" ThisKey="id" OtherKey="tableId" Type="UDBField" />
+      <Association Name="UDBComment_UDBTable" Member="UDBComment" ThisKey="commentId" OtherKey="id" Type="UDBComment" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

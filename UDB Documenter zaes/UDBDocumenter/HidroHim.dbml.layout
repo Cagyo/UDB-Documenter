@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 27, 27.875" name="HidroHim">
+  <DataContextMoniker Name="/HidroHimDataContext" />
+  <nestedChildShapes>
+    <classShape Id="98772be3-57e6-461d-b6a6-0c579a305d5a" absoluteBounds="6.75, 5.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/HidroHimDataContext/addavg" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88353c23-fea5-4e0b-ac32-928ba55720c4" absoluteBounds="6.765, 6.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e1686ba-0b4c-4d3e-9c5a-4c3be478eeb6" absoluteBounds="8.75, 0.75, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/HidroHimDataContext/Ошибки_вставки" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8619f322-17d1-46aa-ba2e-8f393fe965ea" absoluteBounds="8.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2fbe0b6f-1b0f-4b2b-8c69-7b96ac0e500d" absoluteBounds="0.75, 9.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/HidroHimDataContext/block" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8bbddd0-2461-4a38-b214-5482f784a236" absoluteBounds="0.765, 10.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4da13665-50c2-408e-95fd-c4f94c50f0fc" absoluteBounds="9.75, 3.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/HidroHimDataContext/cabinate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="57e34238-03b7-4b15-90ac-fc98ab53a0da" absoluteBounds="9.765, 4.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fd870df4-10f1-4237-9c1d-1f20be40d15d" absoluteBounds="9.75, 6.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/HidroHimDataContext/floor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="518b4ed8-d0eb-44d2-b3e8-c449a31346c3" absoluteBounds="9.765, 7.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abe26fd1-c17b-4313-a2af-7630711244c9" absoluteBounds="9.75, 9.75, 2, 3.6939111328124987">
+      <DataClassMoniker Name="/HidroHimDataContext/forvibor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5418b4fd-3910-430d-8dd0-2664b207df57" absoluteBounds="9.765, 10.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0bc239c7-e215-4de9-8f28-7af30aa950a3" absoluteBounds="3.75, 10.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/HidroHimDataContext/SoorugeniaFDI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1b860af1-26a0-4b40-99b4-2eb91477c517" absoluteBounds="3.765, 11.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3787e1b7-773a-4ab9-a11e-02a6c35e84be" absoluteBounds="11.75, 0.75, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/HidroHimDataContext/Switchboard_Item" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1757c0b-cf21-40c6-a9c8-8e0133c6bc79" absoluteBounds="11.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ad97f75-1517-4d57-a067-0ae46cd394ab" absoluteBounds="0.75, 12.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblAddShifrSkvVar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a325d7a3-4a5d-451a-a9fc-f8b36261f0b3" absoluteBounds="0.765, 13.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d9a1ee1e-ed36-4e82-9a91-0c19e2291246" absoluteBounds="12.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblAddYhastki" />
+      <nestedChildShapes>
+        <elementListCompartment Id="863ee48c-0fc3-44e8-933e-4560927b0cdc" absoluteBounds="12.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af68b79a-742b-4370-8d19-f115551ca3c4" absoluteBounds="3.75, 12.75, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/HidroHimDataContext/tblAddYpvPrompl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="841992ad-246a-4a19-8848-888d5aebeff8" absoluteBounds="3.765, 13.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a3dfdc0-71a5-4726-8b32-43cc41d2cd8f" absoluteBounds="12.75, 6.75, 2, 2.9247054036458318">
+      <DataClassMoniker Name="/HidroHimDataContext/tblAddYpvPromplZ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c7624c5-a0d0-4812-afb1-dc820ff3a7be" absoluteBounds="12.765, 7.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1d2004e6-78f1-40e6-9dd4-ef54f5d749c8" absoluteBounds="12.75, 10.75, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/HidroHimDataContext/tblAllSkvag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6951edd7-82b1-4be7-b119-101a76fc80e0" absoluteBounds="12.765, 11.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8f8489cb-7d7e-4bfd-8382-1572e69f8c87" absoluteBounds="12.75, 13.75, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblAllVyrPrint" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0edd9ea6-505f-41d0-8e92-59f846338e7f" absoluteBounds="12.765, 14.21, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2b926637-69ec-41e4-9c39-0f4b292734da" absoluteBounds="14.75, 0.75, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/HidroHimDataContext/tblComunic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d796576-8572-45e1-9925-98f2303f2e4c" absoluteBounds="14.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="657dfe6a-2621-4f94-9f20-c6b950c37623" absoluteBounds="6.75, 14.75, 2, 5.8092268880208309">
+      <DataClassMoniker Name="/HidroHimDataContext/tblComunicMain" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9bb90f6a-5467-466f-9f13-54af13da39cf" absoluteBounds="6.765, 15.21, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fe7a6f3f-73d8-4328-b714-cedd3798dd23" absoluteBounds="15.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/HidroHimDataContext/tblDataOtbGidroHim" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66c43ef2-2ca0-4ddf-a50c-8ed1a990ecc4" absoluteBounds="15.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1d771b6a-2a02-497f-bed0-fa68c147c874" absoluteBounds="3.5, 6.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/HidroHimDataContext/tblDepthZSK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c169e6f-6dc7-40be-a755-9a80dd7fa444" absoluteBounds="3.515, 6.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26998e0c-17b3-499c-a3e2-ccd17b666899" absoluteBounds="15.75, 6.75, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/HidroHimDataContext/tblDraft" />
+      <nestedChildShapes>
+        <elementListCompartment Id="12572b9a-19ec-4178-b519-c616bcbb8992" absoluteBounds="15.765, 7.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="999697ec-9881-41d2-a92d-81b011ba0ba9" absoluteBounds="15.75, 9.75, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/HidroHimDataContext/tblDynamicResistance" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fff65f87-e289-4aae-8464-9001e28d7025" absoluteBounds="15.765, 10.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d319d1d7-86c9-4c07-a7ae-fe8ba63d7d51" absoluteBounds="15.75, 13.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblElement" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2bcb7d36-f1e5-40cd-a610-c6c6d4a39955" absoluteBounds="15.765, 14.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="33cc9c00-e85c-4b0a-9709-72383c171e44" absoluteBounds="0.75, 16.75, 2, 7.1553369140625023">
+      <DataClassMoniker Name="/HidroHimDataContext/tblElementNorma" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b6b52465-23b9-4717-881f-1ad566904dc0" absoluteBounds="0.765, 17.21, 1.9700000000000002, 6.5953369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a452028b-ab1b-4111-9cfb-e11dc335a0e5" absoluteBounds="15.75, 16.75, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/HidroHimDataContext/tblFactor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="31c53ab3-6ccc-4402-95d8-97594f33bcba" absoluteBounds="15.765, 17.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e73ba960-5907-417e-869b-718f3cad4e78" absoluteBounds="18.75, 0.75, 2, 8.3091455078125023">
+      <DataClassMoniker Name="/HidroHimDataContext/tblGidroHim" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47b601ba-40df-4bee-b481-804c4595087b" absoluteBounds="18.765, 1.21, 1.9700000000000002, 7.7491455078125009" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90ad64c5-ef0a-469e-afcb-6de2f3d6a86f" absoluteBounds="18.75, 10.75, 2, 8.3091455078125023">
+      <DataClassMoniker Name="/HidroHimDataContext/tblGidroHim1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b419900-7706-4f1a-87d5-93dde1befa3c" absoluteBounds="18.765, 11.21, 1.9700000000000002, 7.7491455078125009" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c21ddde4-dc35-4040-8545-0c7cea114b6a" absoluteBounds="9.75, 19.75, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/HidroHimDataContext/tblGidroHimforData" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f6b0882-6d3c-4296-b7e5-e5e6fe77ec23" absoluteBounds="9.765, 20.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="61e70441-9160-4268-860e-8f03f8d69ef4" absoluteBounds="12.75, 19.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblIspolnitel" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2f3a23c-ef6e-4806-8a64-82a82e7216d1" absoluteBounds="12.765, 20.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7ef2f04-6ef2-447f-8db4-25b6db89e3fe" absoluteBounds="15.75, 20.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblNewShifr" />
+      <nestedChildShapes>
+        <elementListCompartment Id="307ab955-4a38-48a3-9a57-5466aa33942f" absoluteBounds="15.765, 21.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a2306767-044f-4511-86cf-2f4b3340f10f" absoluteBounds="18.75, 20.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/HidroHimDataContext/tblNewSkvagPl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a767fc57-5a44-4e57-81c5-517adbd90f31" absoluteBounds="18.765, 21.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f6557fd4-f35f-4de0-8ba8-879816d37d28" absoluteBounds="21.75, 0.75, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/HidroHimDataContext/tblNewSkvOb" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da20b977-c4f8-4ab9-b448-f2cd96eed2f6" absoluteBounds="21.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="99769053-d45d-4f89-a073-2a2529bfd992" absoluteBounds="21.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/HidroHimDataContext/tblNewSkvPrompl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e179f6e-1ba5-4f49-bc25-b3afd89a7eee" absoluteBounds="21.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="340db804-795f-4e8f-b40e-2fb1f8a24f1e" absoluteBounds="3.75, 21.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblObjektZamerov" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1dc5c5b3-9f37-4dd0-b70a-4f447485c84a" absoluteBounds="3.765, 22.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="51418d2b-19b8-4d7e-993e-77f738acb708" absoluteBounds="21.75, 6.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblObjYchast1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bdfe359b-989b-4eb3-b782-0cf71706f6d9" absoluteBounds="21.765, 7.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e51252bd-c76a-4217-8585-d9dc006d9be4" absoluteBounds="21.75, 9.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/HidroHimDataContext/tblOtchet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93785943-c05f-45a7-931f-63f7704feecd" absoluteBounds="21.765, 10.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c3cb1783-25b6-40aa-a9ef-6fde49aa13b0" absoluteBounds="21.75, 12.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/HidroHimDataContext/tblPerevod" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8380b599-d1c2-4e89-89d4-4a345261c84f" absoluteBounds="21.765, 13.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0fe4b73e-97e1-45b7-a2e0-ee9b6523fbf7" absoluteBounds="21.75, 15.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblSoil" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f27860e2-bb2a-45b0-8993-0db4cef1c40e" absoluteBounds="21.765, 16.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f613214b-de8f-4f6f-961b-6225f8ecb9e0" absoluteBounds="0.75, 6, 2, 2.3478011067708326">
+      <DataClassMoniker Name="/HidroHimDataContext/tblSoorugeniaMain" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9a5dbcd-6e59-4c53-88da-b72cdca0abfe" absoluteBounds="0.765, 6.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94cd1d90-88f8-4799-aa8d-9a42fdd95577" absoluteBounds="21.75, 20.75, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/HidroHimDataContext/tblSoorugeniaMain1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d66068b-d5bd-463a-99f3-c80bbe72ccd6" absoluteBounds="21.765, 21.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fe5fe1e8-8e16-464d-a124-bd68a6d501ce" absoluteBounds="12.75, 23.75, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/HidroHimDataContext/tblTipVyrabotki" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9299613b-2229-42f6-9837-75c1563b524f" absoluteBounds="12.765, 24.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3a7a2da-c6d6-4523-a3de-21a3cea1f8a0" absoluteBounds="15.75, 23.75, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/HidroHimDataContext/tblVibor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d125419-cde5-426d-9385-0d252cfa6891" absoluteBounds="15.765, 24.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="54c88a13-8414-4e89-90cf-dff9295f561b" absoluteBounds="18.75, 23.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblViborForPasp" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e1017849-defe-4c6c-ba24-0eb1e66223c3" absoluteBounds="18.765, 24.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="926481b4-0949-4d0c-b279-175cb85cd6ff" absoluteBounds="21.75, 23.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblVyrabotka" />
+      <nestedChildShapes>
+        <elementListCompartment Id="471479c6-bd2d-44f9-958c-68715476539b" absoluteBounds="21.765, 24.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec07c93f-5a6d-44da-821d-1cdfb0a1964d" absoluteBounds="24.75, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblVyrabotka_old" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47a0d47b-9269-4ecb-a64f-d1347a8aa686" absoluteBounds="24.765, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="936653bd-8125-4c58-ad6a-2c640c43cff7" absoluteBounds="0.75, 24.75, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/HidroHimDataContext/tblVyrabotkaGeneral" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1004b77b-e333-4153-bcae-13ee5cb29e60" absoluteBounds="0.765, 25.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dab15847-20aa-4cc4-85ca-b92f400d6b86" absoluteBounds="24.75, 3.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblVyrabotkaGranul" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5b44215-8542-47fd-98bc-2b966e1d649f" absoluteBounds="24.765, 4.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6fbe3fba-cffe-4eb8-bd4d-734ba8ba175a" absoluteBounds="3.75, 24.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/HidroHimDataContext/tblVyrabotkaSloy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="90bd43c9-0c8f-413a-99d1-f2a9c2c988a1" absoluteBounds="3.765, 25.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d49138cc-d679-4cab-8d5d-2111e11645d0" absoluteBounds="24.75, 6.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblYpvVnechOb" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d0d78f0b-7382-471c-8bc5-7f8f477d0e85" absoluteBounds="24.765, 7.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="889dd50e-882c-4ca7-ad75-09dfe4c83aeb" absoluteBounds="6.75, 24.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblYpvVnechOb1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b7248bde-c767-451d-82f6-4259a9786987" absoluteBounds="6.765, 25.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b5516ed5-3472-42d8-90ec-938da862ac07" absoluteBounds="24.75, 9.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/HidroHimDataContext/tblYpvVnechOb2009" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c05eb0b6-d859-4416-aba7-da2ad5d42f65" absoluteBounds="24.765, 10.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="59059f1a-1866-4784-8413-5d337baef1cd" absoluteBounds="24.75, 12.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/HidroHimDataContext/tblYpvVodnObj" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ffcdeb34-8233-4ddf-af02-fb4bf933c723" absoluteBounds="24.765, 13.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8a60e7b1-51d7-4a7a-a47b-42b4882976b1" absoluteBounds="0.75, 2.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/HidroHimDataContext/UDBComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9c7cdda9-d8de-4894-8364-4aeeec1a6164" absoluteBounds="0.765, 2.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c7cad327-0066-42ca-a73c-c4797f6d3395" absoluteBounds="6.25, 2.125, 2, 2.1554996744791661">
+      <DataClassMoniker Name="/HidroHimDataContext/UDBField" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7c0c708b-c618-4acb-84f3-af2d982fc91d" absoluteBounds="6.265, 2.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bfce03ea-bcb4-4923-9e43-dab0467dadb8" absoluteBounds="3.5, 2.5, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/HidroHimDataContext/UDBTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79becd0a-68db-47e6-804d-e859a0f2d690" absoluteBounds="3.515, 2.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 7.06814697265625); (3.5 : 7.06814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HidroHimDataContext/tblSoorugeniaMain/tblSoorugeniaMain_tblDepthZSK" />
+      <nodes>
+        <classShapeMoniker Id="f613214b-de8f-4f6f-961b-6225f8ecb9e0" />
+        <classShapeMoniker Id="1d771b6a-2a02-497f-bed0-fa68c147c874" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.40625); (6.25 : 2.40625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HidroHimDataContext/UDBComment/UDBComment_UDBField" />
+      <nodes>
+        <classShapeMoniker Id="8a60e7b1-51d7-4a7a-a47b-42b4882976b1" />
+        <classShapeMoniker Id="c7cad327-0066-42ca-a73c-c4797f6d3395" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.19314697265625); (6.25 : 3.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HidroHimDataContext/UDBTable/UDBTable_UDBField" />
+      <nodes>
+        <classShapeMoniker Id="bfce03ea-bcb4-4923-9e43-dab0467dadb8" />
+        <classShapeMoniker Id="c7cad327-0066-42ca-a73c-c4797f6d3395" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.19314697265625); (3.5 : 3.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/HidroHimDataContext/UDBComment/UDBComment_UDBTable" />
+      <nodes>
+        <classShapeMoniker Id="8a60e7b1-51d7-4a7a-a47b-42b4882976b1" />
+        <classShapeMoniker Id="bfce03ea-bcb4-4923-9e43-dab0467dadb8" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
