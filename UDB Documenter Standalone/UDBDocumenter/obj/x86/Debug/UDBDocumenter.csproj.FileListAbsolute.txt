@@ -19,3 +19,5 @@ D:\Projects\UDBDocumenter\UDBDocumenter\obj\x86\Debug\UDBDocumenter.TableDocView
 D:\Projects\UDBDocumenter\UDBDocumenter\obj\x86\Debug\UDBDocumenter.ReportGenForm.resources
 D:\Projects\UDBDocumenter\UDBDocumenter\bin\Debug\MySql.Data.dll
 D:\Projects\UDBDocumenter\UDBDocumenter\obj\x86\Debug\UDBDocumenter.MainForm.resources
+d:\GitHub\UDB-Documenter\UDB Documenter Standalone\UDBDocumenter\obj\x86\Debug\UDBDocumenter.exe
+d:\GitHub\UDB-Documenter\UDB Documenter Standalone\UDBDocumenter\obj\x86\Debug\UDBDocumenter.pdb
